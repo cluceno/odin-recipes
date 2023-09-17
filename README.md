@@ -1,1 +1,2 @@
 # odin-recipes
+In this project, I will be presenting recipes on webpages that I have created, using HTML. I will demonstrate the ability to outline the basic structure of an HTML webpage, add photos and links, create lists, add headers, and modify text to bold or italic font. 
