@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.title-page {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    font-family: cursive, Helvetica, sans-serif;
+    margin: 0px auto;
+}
+
+.recipes {
+    margin: 10px 0px;
+
+}
+
+.ingredient-title {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 900;
+    font-size: 16px;
+    width: 150px;
+    margin: 10px 0px 10px 100px
+}
+
+.ingredients {
+    font-family:'Courier New', Courier, monospace
+}
