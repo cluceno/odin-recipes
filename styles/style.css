@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
 }
 
 .title-page {
@@ -8,25 +10,48 @@
     background-color: navy;
     color: white;
     padding: 10px;
-    font-family: cursive, Helvetica, sans-serif;
     margin: 0px auto;
 }
 
 .recipes {
     margin: 10px 0px;
-
 }
 
-.ingredient-title {
-    font-family: 'Courier New', Courier, monospace;
+/* recipe pages starting from the top down */
+
+.recipe-title {
+    padding: 0px 10px;
+    font-weight: bold;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.recipe-photo {
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+.description {
+    padding: 10p;
+    margin: 10px 10px;
+}
+
+.ingredient-title, .instructions-title {
     padding: 10px;
     border: 1px solid black;
     font-weight: 900;
     font-size: 16px;
     width: 150px;
-    margin: 10px 0px 10px 100px
+    margin: 10px 0px 10px 10px;
+    text-align: center;
 }
 
-.ingredients {
-    font-family:'Courier New', Courier, monospace
+.ingredients, .instructions {
+    padding: 10px;
+    margin: 10px 30px;
+}
+
+.home {
+    margin: 20px;
+    padding: 20px;
 }
